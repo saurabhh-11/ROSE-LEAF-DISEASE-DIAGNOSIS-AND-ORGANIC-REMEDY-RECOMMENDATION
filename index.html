@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rose Disease Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Rose Disease Detection</h1>
+    </header>
+
+
+    <!-- Form Section -->
+    <div id="form-section">
+        <form id="upload-form" action="/predict" method="post" enctype="multipart/form-data">
+            <label for="file" id="file-label">
+                <i class="fas fa-cloud-upload-alt"></i> Choose an image to upload
+            </label>
+            <input type="file" id="file" name="file" accept="image/*" required>
+            <br>
+            <img id="image-preview" class="preview-image" alt="Image Preview" style="display:none;">
+            <br>
+            <div id="file-name" style="display:none; font-size: 16px; margin-top: 10px;"></div>
+            <br>
+            <button type="submit">Predict</button>
+        </form>
+
+        <div class="spinner-container">
+            <div class="spinner" id="spinner"></div>
+            <div class="spinner-text" id="spinner-text" style="display:none;">Detecting disease, please wait...
+            </div>
+        </div>
+
+        <div class="result" id="result">
+            <div class="result-header">Results</div>
+            <div class="result-item">
+                <i class="fas fa-virus"></i><label>Disease Name:</label> <span id="disease-name"></span>
+            </div>
+            <div class="result-item">
+                <i class="fas fa-seedling"></i><label>Fertilizer Recommendation:</label> <span id="fertilizer"></span>
+            </div>
+            <div class="result-item">
+                <i class="fas fa-stethoscope"></i><label>Treatment Recommendation:</label> <span id="treatment"></span>
+            </div>
+            <button type="button" class="clear-button" id="clear-btn">
+                <i class="fas fa-trash-alt"></i>
+            </button>
+        </div>
+
+        <div class="error-message" id="error-message"></div>
+    </div>
+
+    <!-- History Section -->
+    <div id="history-section">
+        <button id="history-btn">History</button>
+        <div id="history-list" style="display: none;">
+            <div id="history-controls">
+                <button id="back-btn">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
+                <button id="clear-history-btn">
+                    <i class="fas fa-trash-alt"></i>
+                </button>
+            </div>
+            <!-- <div style="clear: both;"></div> -->
+            <div id="history-items">
+                <!-- History items will be dynamically loaded here -->
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>© 2024 Rose Disease Detection. All Rights Reserved.</p>
+    </footer>
+
+    <script src="{{url_for('static', filename='scrt.js')}}">
+    </script>
+</body>
+
+</html>
