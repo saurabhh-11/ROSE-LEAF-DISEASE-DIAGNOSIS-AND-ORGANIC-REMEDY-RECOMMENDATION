@@ -3,7 +3,7 @@
 An **AI-powered system** that detects rose leaf diseases and suggests **organic remedies** to promote eco-friendly farming.  
 
 ## 🚀 Features  
-- **🌱 Disease Detection** – Identifies common diseases like **black spot, powdery mildew**, and more.  
+- **🌱 Disease Detection** – Identifies 6 type of diseases like **black spot, powdery mildew,downy mildew,rose rust,rose slug,rose moasaic**.  
 - **🍃 Organic Remedies** – Provides eco-friendly treatment suggestions.  
 - **🖼️ User-Friendly Interface** – Upload images and get instant results.  
 
