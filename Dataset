@@ -1,5 +1,5 @@
 A dataset for rose leaf diseases is currently available; 
 however, it encompasses only a limited number of conditions, namely black spot, powdery mildew, and downy mildew. 
 To address this gap, we have curated and created an extended dataset, which has been uploaded to Kaggle. 
-I would like to include this dataset in the dataset section of our GitHub profile.
+Covering disease like rose rust,rose mosaic,rose slug.
 https://www.kaggle.com/datasets/samulikurabh/rose-leaf-disease-dataset
