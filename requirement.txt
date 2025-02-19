@@ -1,3 +1,7 @@
-pyhton
 tensorflow
-keras
+opencv-python
+numpy
+matplotlib
+flask
+pillow
+scikit-learn
