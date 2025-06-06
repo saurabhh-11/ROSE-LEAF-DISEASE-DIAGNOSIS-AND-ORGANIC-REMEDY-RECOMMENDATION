@@ -24,4 +24,4 @@ Get disease diagnosis
 
 Receive organic remedy suggestions 🍃
 
-**Empowering AI in agriculture to support eco-conscious cultivation. **🌍
+**Empowering AI in agriculture to support eco-conscious cultivation.🌍**
