@@ -1,25 +1,27 @@
-# 🌿 ROSE LEAF DISEASE DIAGNOSIS & ORGANIC REMEDY RECOMMENDATION  
+🌿 Rose Leaf Disease Diagnosis & Remedy Recommendation
+An AI-powered tool that detects rose leaf diseases and recommends organic treatments for sustainable farming. 🌱
 
-An **AI-powered system** that detects rose leaf diseases and suggests **organic remedies** to promote eco-friendly farming.  
+🚀 Key Features
+Detects 6+ diseases (e.g., black spot, powdery mildew, rust)
 
-## 🚀 Features  
-- **🌱 Disease Detection** – Identifies 6 type of diseases like **black spot, powdery mildew,downy mildew,rose rust,rose slug,rose moasaic**.  
-- **🍃 Organic Remedies** – Provides eco-friendly treatment suggestions.  
-- **🖼️ User-Friendly Interface** – Upload images and get instant results.  
+Suggests eco-friendly remedies
 
-## 🛠 Technologies Used  
-- **🤖 Deep Learning** – TensorFlow for CNN-based disease detection.  
-- **🖼️ Image Processing** – OpenCV for image preprocessing.  
-- **🌐 Web Technologies** – HTML, CSS, JavaScript.  
-- **📊 Dataset** – Labeled images of healthy and diseased rose leaves.  
+Simple interface – upload a leaf image, get results instantly
 
-## 📌 How to Use  
-1. **Upload** an image of a rose leaf.  
-2. **Get Diagnosis** – The system detects the disease.  
-3. **View Remedies** – Organic treatment suggestions are provided.  
+🛠️ Tech Stack
+TensorFlow for CNN-based disease detection
 
-## 🔮 Future Scope  
-- 📌 Expand to detect more plant diseases.  
-- 📱 Enable **real-time detection** via smartphones.  
+OpenCV for image preprocessing
 
-This project highlights the power of **AI in agriculture** and promotes **sustainable farming**. 🌍🌱  
+HTML, CSS, JavaScript for frontend
+
+Trained on a labeled rose leaf image dataset
+
+📌 How It Works
+Upload a leaf image
+
+Get disease diagnosis
+
+Receive organic remedy suggestions 🍃
+
+Empowering AI in agriculture to support eco-conscious cultivation. 🌍
